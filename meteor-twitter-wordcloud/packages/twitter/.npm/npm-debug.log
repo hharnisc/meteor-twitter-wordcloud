@@ -1,0 +1,33 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/harrisonharnisch/.meteor/tools/cc18dfef9e/bin/node',
+1 verbose cli   '/Users/harrisonharnisch/.meteor/tools/cc18dfef9e/bin/npm',
+1 verbose cli   'ls',
+1 verbose cli   '--json' ]
+2 info using npm@1.2.2
+3 info using node@v0.8.18
+4 verbose read json /Users/harrisonharnisch/Documents/gitprojects/meteor-twitter-wordcloud/meteor-twitter-wordcloud/packages/twitter/.npm/package.json
+5 verbose read json /Users/harrisonharnisch/Documents/gitprojects/meteor-twitter-wordcloud/meteor-twitter-wordcloud/packages/twitter/.npm/node_modules/twitter/package.json
+6 verbose read json /Users/harrisonharnisch/Documents/gitprojects/meteor-twitter-wordcloud/meteor-twitter-wordcloud/packages/twitter/.npm/node_modules/twitter/node_modules/cookies/package.json
+7 verbose read json /Users/harrisonharnisch/Documents/gitprojects/meteor-twitter-wordcloud/meteor-twitter-wordcloud/packages/twitter/.npm/node_modules/twitter/node_modules/keygrip/package.json
+8 verbose read json /Users/harrisonharnisch/Documents/gitprojects/meteor-twitter-wordcloud/meteor-twitter-wordcloud/packages/twitter/.npm/node_modules/twitter/node_modules/oauth/package.json
+9 verbose readInstalled returning twitter@0.1.18
+10 verbose readInstalled returning oauth@0.9.10
+11 verbose readInstalled returning cookies@0.3.6
+12 verbose readInstalled returning keygrip@0.2.2
+13 verbose exit [ 0, true ]
+14 error Error: write EPIPE
+14 error     at errnoException (net.js:770:11)
+14 error     at Object.afterWrite (net.js:594:19)
+15 error If you need help, you may report this log at:
+15 error     <http://github.com/isaacs/npm/issues>
+15 error or email it to:
+15 error     <npm-@googlegroups.com>
+16 error System Darwin 12.4.0
+17 error command "/Users/harrisonharnisch/.meteor/tools/cc18dfef9e/bin/node" "/Users/harrisonharnisch/.meteor/tools/cc18dfef9e/bin/npm" "ls" "--json"
+18 error cwd /Users/harrisonharnisch/Documents/gitprojects/meteor-twitter-wordcloud/meteor-twitter-wordcloud/packages/twitter/.npm
+19 error node -v v0.8.18
+20 error npm -v 1.2.2
+21 error syscall write
+22 error code EPIPE
+23 error errno EPIPE
+24 verbose exit [ 1, true ]
